@@ -1,0 +1,7 @@
+views:
+  - type: table
+    name: Tableau
+    filters:
+      and:
+        - file.tags.contains("glossaire")
+        - file.folder == "glossaire"
