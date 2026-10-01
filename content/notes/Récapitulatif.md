@@ -4,8 +4,8 @@ Chaque langage du web a un cas d'usage différent.
 
 |                Langage                 |                     Utilisation                     |
 | :------------------------------------: | :-------------------------------------------------: |
-|                [[HTML]]                |                 Structurer la page                  |
-|                [[CSS]]                 |                  Styliser la page                   |
+|                [[notes/les_langages_du_web/HTML]]                |                 Structurer la page                  |
+|                [[notes/les_langages_du_web/CSS]]                 |                  Styliser la page                   |
 |           [[JavaScript\|JS]]           | Interagir avec l'utilisateur / animations complexes |
 | [[notes/les_langages_du_web/PHP\|PHP]] |            Rendre un site web dynamique             |
 | [[notes/les_langages_du_web/SQL\|SQL]] |          Interagir avec la base de données          |

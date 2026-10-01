@@ -1,5 +1,5 @@
 # Introduction
-Nous avons un peu parlé d'FTP dans la note concernant le[[Serveur FTP|serveur FTP]], logique.
+Nous avons un peu parlé d'FTP dans la note concernant le [[Serveur FTP|serveur FTP]], logique.
 Maintenant il vous faut un outil pour utiliser ce serveur et vous y connecter, il y en a plusieurs. Voici les deux principaux :
 - [FileZilla](https://filezilla-project.org/)
 - [WinSCP](https://winscp.net/eng/download.php)

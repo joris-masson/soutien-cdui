@@ -1,8 +1,8 @@
 Ceci est un coffre **Obsidian**, c'est notamment utilisé pour prendre des notes et les organiser, à la manière de **Notion**, mais sans dépendance à un service externe, car tout est stocké sur votre machine, et rien n'en sort !
 # Sommaire
 - [[Les langages du web]]
-	- [[HTML]]
-	- [[CSS]]
+	- [[notes/les_langages_du_web/HTML]]
+	- [[notes/les_langages_du_web/CSS]]
 	- [[JavaScript]]
 	- [[notes/les_langages_du_web/PHP|PHP]]
 	- [[notes/les_langages_du_web/SQL|SQL]]
@@ -18,10 +18,12 @@ Ceci est un coffre **Obsidian**, c'est notamment utilisé pour prendre des notes
 	- [[DevTools]]
 	- [[W3C|Validation W3C]]
 - Non catégorisé
+	- [[Algorithmie]]
 	- [[Sécurité]]
-	- [[Récapitulatif]]
+- [[Récapitulatif]]
 - [[Glossaire.base|Glossaire]] (WIP)
 # Quelques statistiques
+Normalement un tableau avec des statistiques est dans cette section. Si vous n'êtes pas dans Obsidian, cela ne s'affichera pas.
 ```dataviewjs
 const pages = dv.pages('""').where(p => p.file.ext === "md");
 const lignes = [];

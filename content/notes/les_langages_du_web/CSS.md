@@ -7,10 +7,10 @@ Le CSS est là pour styliser (non non vraiment, j'vous jure !) votre page, dire
 >Je ne fais que montrer des exemples afin d'expliquer un principe.
 # Les sélecteurs CSS
 Lorsque l'on travaille avec du CSS, on utilise des sélecteurs pour... sélectionner les éléments de votre page.
-Reprenons l'exemple du titre dans la section [[HTML#Les attributs|Les attributs]] de la note sur le [[HTML]]:
+Reprenons l'exemple du titre dans la section [[notes/les_langages_du_web/HTML#Les attributs|Les attributs]] de la note sur le [[notes/les_langages_du_web/HTML]]:
 
 ```html
-<h1 id='titre-principal' class='titre'>Ceci est un titre</h1>
+<h1 id="titre-principal" class="titre">Ceci est un titre</h1>
 ```
 
 Ici, trois choses peuvent servir à identifier et sélectionner ce `<h1>` :
@@ -20,7 +20,7 @@ Ici, trois choses peuvent servir à identifier et sélectionner ce `<h1>` :
 
 Pour sélectionner cela, il existe différentes façon, selon ce que vous voulez sélectionner, avec les [sélecteurs CSS](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Selectors).
 
-N'oubliez pas les [[HTML#Différence entre id et class|différences entre un ID et une classe]].
+N'oubliez pas les [[notes/les_langages_du_web/HTML#Différence entre id et class|différences entre un ID et une classe]].
 # Propriétés CSS
 Le but du CSS, c'est principalement de changer le style de vos éléments HTML, de votre page. Pour cela, après avoir sélectionné ce que vous voulez changer, il faut commencer à modifier les propriétés CSS, par exemple :
 

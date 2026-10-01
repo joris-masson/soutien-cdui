@@ -1,7 +1,7 @@
 # Introduction
 Ce qu'on appelle langages du web, ce sont tout simplement les quelques langages principalement utilisés sur le web, il y en a principalement 4 :
-- [[HTML]]
-- [[CSS]]
+- [[notes/les_langages_du_web/HTML]]
+- [[notes/les_langages_du_web/CSS]]
 - [[JavaScript]]
 - [[notes/les_langages_du_web/PHP|PHP]]
 Nous pouvons aussi rajouter [[notes/les_langages_du_web/SQL|SQL]], qui n'est pas vraiment un langage du web, mais en est indissociable pour autant.

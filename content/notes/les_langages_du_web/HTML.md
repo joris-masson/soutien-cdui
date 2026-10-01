@@ -27,13 +27,13 @@ Les balises HTML peuvent contenir des **attributs**, les plus courants étant `i
 Les attributs sont à définir dans la balise **ouvrante**, par exemple :
 
 ```html
-<h1 id='titre-principal' class='titre'>Ceci est un titre</h1>
+<h1 id="titre-principal" class="titre">Ceci est un titre</h1>
 ```
 
 Il y a aussi les `href` des `<a>` :
 
 ```html
-<a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Ceci n'est pas un rickroll</a>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Ceci n'est pas un rickroll</a>
 ```
 
 Et bien d'autres !
@@ -48,16 +48,16 @@ Un ID, c'est un identifiant, et c'est fait pour être unique, ce n'est pas une r
 L'ID est là pour... Identifier (lol), un élément précis de votre page. Par exemple le titre principal.
 
 ```html
-<h1 id='titre-principal'>Ceci est un titre</h1>
+<h1 id="titre-principal">Ceci est un titre</h1>
 ```
 #### Une classe
 Une classe, c'est un **groupe** d'éléments qui **partagent** des propriétés communes.
 Là, vous pouvez avoir autant d'éléments que vous voulez dans votre page qui partagent une même classe, et il est même possible de combiner des classes.
 
 ```html
-<h1 class='titre'>Ceci est un titre</h1>
-<h2 class='titre'>Ceci est un sous-titre</h2>
-<h3 class='titre sous-sous-titre'>Ceci est un sous-sous-titre</h3>
+<h1 class="titre">Ceci est un titre</h1>
+<h2 class="titre">Ceci est un sous-titre</h2>
+<h3 class="titre sous-sous-titre">Ceci est un sous-sous-titre</h3>
 ...
 ```
 # Structure
