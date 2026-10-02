@@ -6,7 +6,7 @@ Il sert à définir la **structure** de votre page web.
 >Ainsi, je ne peux pas garantir que les exemples que je montre ici sont réalisés en se basant sur de bonnes pratiques.
 >Je ne fais que montrer des exemples afin d'expliquer un principe.
 # Les balises
-Déjà parce que ce qui est utilisé lorsque l'on fait du HTML, ce sont des balises. 🤓
+Déjà parce que ce qui est utilisé lorsque l'on fait du [[HTML (Glossaire)|HTML]], ce sont des balises. 🤓
 Mais surtout parce que HTML va servir à dire "là y a un article", "là y a le titre de cet article", etc...
 ## Qu'est-ce qu'une balise ?
 C'est simple, c'est un truc qui est entouré de `<>` : `<img>`, `<br>` `<h3>`, etc...
@@ -20,10 +20,10 @@ Ici, nous avons un paragraphe `<p>`. Le contenu de ce paragraphe est **entouré*
 
 Certaines balises n'ont pas de balises fermantes, c'est le cas de `<img>` et `<br>` par exemple.
 
-Il existe une multitude de balises, toutes avec une utilité bien définie. L'usage des bonnes balises HTML est préférable pour le SEO.
+Il existe une multitude de balises, toutes avec une utilité bien définie. L'usage des bonnes balises [[HTML (Glossaire)|HTML]] est préférable pour le SEO.
 Par "bonne", j'entends utiliser la balise qui fait le plus sens sémantiquement, par exemple pour le titre principal d'une page, utiliser `<h1>` plutôt que `<div id='mon-super-titre'>`.
 # Les attributs
-Les balises HTML peuvent contenir des **attributs**, les plus courants étant `id` et `class`.
+Les balises [[HTML (Glossaire)|HTML]] peuvent contenir des **attributs**, les plus courants étant `id` et `class`.
 Les attributs sont à définir dans la balise **ouvrante**, par exemple :
 
 ```html
@@ -38,7 +38,7 @@ Il y a aussi les `href` des `<a>` :
 
 Et bien d'autres !
 ### Différence entre id et class
-Ces deux attributs sont extrêmement importants en HTML et CSS.
+Ces deux attributs sont extrêmement importants en [[HTML (Glossaire)|HTML]] et [[CSS (Glossaire)|CSS]].
 
 La plupart des gens vont résumer ça à "id, c'est unique, et class, c'est plusieurs".
 Techniquement, c'est vrai, cependant, ça manque cruellement de détails et de nuances.
@@ -61,7 +61,7 @@ Là, vous pouvez avoir autant d'éléments que vous voulez dans votre page qui p
 ...
 ```
 # Structure
-Un bon HTML est un HTML bien structuré, et pour ça, il faut voir la structure de base d'une page web :
+Un bon [[HTML (Glossaire)|HTML]] est un HTML bien structuré, et pour ça, il faut voir la structure de base d'une page web :
 
 ```html
 <!DOCTYPE html>
@@ -82,9 +82,9 @@ Ensuite le `<html lang='fr'>`, qui contient toute votre page, et indique via un 
 Nous avons ensuite le `<head>`, qui est là pour contenir les diverses métadonnées de votre page, par exemple :
 - Son titre
 - Son icône (favicon)
-- Les feuilles de style (CSS)
+- Les feuilles de style ([[CSS (Glossaire)|CSS]])
 - Diverses autres choses...
 Ici, même si ça sort un peu du cadre de la structure en elle-même, j'ai rajouté `<meta charset="utf-8">`, qui devrait normalement toujours être là, afin de s'assurer que les accents par exemple, soient affichés correctement.
 Et enfin le `<body>`, qui représente le contenu de la page en lui-même, les paragraphes, les titres de sections, tout ça, ça va là-dedans.
 # En résumé
-Le HTML, c'est le **squelette** d'une page web.
+Le [[HTML (Glossaire)|HTML]], c'est le **squelette** d'une page web.

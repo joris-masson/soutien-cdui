@@ -2,13 +2,13 @@
 ## Différents cas d'usage
 Chaque langage du web a un cas d'usage différent.
 
-|                Langage                 |                     Utilisation                     |
-| :------------------------------------: | :-------------------------------------------------: |
-|                [[notes/les_langages_du_web/HTML]]                |                 Structurer la page                  |
-|                [[notes/les_langages_du_web/CSS]]                 |                  Styliser la page                   |
-|           [[JavaScript\|JS]]           | Interagir avec l'utilisateur / animations complexes |
-| [[notes/les_langages_du_web/PHP\|PHP]] |            Rendre un site web dynamique             |
-| [[notes/les_langages_du_web/SQL\|SQL]] |          Interagir avec la base de données          |
+|                 Langage                  |                     Utilisation                     |
+| :--------------------------------------: | :-------------------------------------------------: |
+| [[notes/les_langages_du_web/HTML\|HTML]] |                 Structurer la page                  |
+|  [[notes/les_langages_du_web/CSS\|CSS]]  |                  Styliser la page                   |
+|            [[JavaScript\|JS]]            | Interagir avec l'utilisateur / animations complexes |
+|  [[notes/les_langages_du_web/PHP\|PHP]]  |            Rendre un site web dynamique             |
+|  [[notes/les_langages_du_web/SQL\|SQL]]  |          Interagir avec la base de données          |
 ## Différence JS et PHP
 La grosse différence entre les deux, c'est **quand** et **où** fonctionnent ces deux langages.
 

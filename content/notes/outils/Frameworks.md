@@ -14,3 +14,5 @@ Une fois que vous avez votre framework, il faut l'intégrer à votre site web.
 La façon de faire peut différer d'un framework à l'autre, mais généralement, vous n'avez qu'à intégrer une nouvelle balise à votre site.
 
 Ensuite pour son utilisation ça dépends grandement, donc je ne pourrais pas trop en dire.
+
+Un exemple pour Splide est disponible [[JavaScript#Intégration|ici]].
