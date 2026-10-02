@@ -1,3 +1,4 @@
+>[!info] Cette note est pour un niveau plus avancé.
 # Introduction
 Loin de moi l'idée de faire un cours d'algo ici, comme les 3/4 de ma promo en licence, j'ai genre eu 3 ou 4 dans ce cours. 😶
 Je peux juste donner quelques conseils pour apprendre l'algorithmie, car c'est un point extrêmement bloquant pour beaucoup.

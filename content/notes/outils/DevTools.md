@@ -22,5 +22,5 @@ Il n'est disponible que sur Google Chrome (peut-être aussi les autres navigateu
 Cet outil permet de lancer toute une analyse de votre site web, et va vous générer un rapport avec une note.
 Certains sites proposent cet outil en ligne également.
 
-Ce qui est analysé, c'est le temps de chargement de votre page notamment, et de tous ses éléments.
+Ce qui est analysé, c'est le temps de chargement de votre page notamment, et de tous ses éléments, ainsi que l'accessibilité et les bonnes pratique de SEO.
 Vous pouvez lancer une analyse en mode desktop ou mobile.

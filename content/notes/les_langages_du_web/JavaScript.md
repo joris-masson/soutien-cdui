@@ -15,6 +15,49 @@ C'est tout con, mais c'est un exemple de fonctionnalité pour laquelle JS serait
 
 Un autre exemple serait une barre de progression de la page. Comme sur [le site de cette graphiste indépendante là](https://amaliagraphiste.fr/), j'sais pas si vous connaissez... 👀
 Les carrousels également, enfin y a une infinité d'exemples à donner, la limite n'est représentée que par votre propre créativité.
+# Intégration
+Vous serez rarement amenés à coder vous-même, vous allez surtout faire de l'intégration du code d'autres personnes avec les frameworks notamment.
+Je vais prendre l'exemple d'un carrousel [Splide](https://splidejs.com/)
+## Ajout du framework à votre page
+Il existe plusieurs méthodes selon si vous utilisez un gestionnaire de paquets, un gros framework ou du pur JS.
+Si vous êtes en pur JS, vous devrez ajouter le script du framework à votre page, pour Splide, vous pouvez avoir des informations à ce propos sur [cette page](https://splidejs.com/guides/getting-started/).
+
+Bref, nous on intègre directement le script à la page comme ceci :
+```html
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+```
+
+Avec ça, Splide est chargé et prêt à être utilisé.
+
+Mais il y a aussi du CSS à charger dans le cas de Splide (à rajouter dans le `<head>`) :
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+```
+## Création d'un carrousel
+À partir de là, ça va dépendre de ce que vous voulez faire, mais l'idée, c'est de suivre le guide officiel donné plus tôt.
+
+```html
+<section class="splide" aria-label="Splide Basic HTML Example">
+	<div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide">Slide 01</li>
+			<li class="splide__slide">Slide 02</li>
+			<li class="splide__slide">Slide 03</li>
+		</ul>
+	</div>
+</section>
+```
+
+Le carrousel a une structure bien définie, à vous de l'adapter à ce que vous voulez réaliser ensuite.
+## Code JavaScript
+Il est ensuite temps d'attacher du code au carrousel afin de le faire... Carrouseler !
+
+```js
+new Splide( '.splide' ).mount();
+```
+
+Ce bout de code dit "Créés un nouveau carrousel Splide et attache le au carrousel de class `splide`".
 # Le DOM
 C'est un concept très important en JS, car la principale chose que l'on fait avec du JS, c'est de **manipuler le DOM**.
 Le DOM ou **D**ocument **O**bject **M**odel, c'est la représentation sous forme **d'arbre** de votre page web. C'est grâce à cela qu'il est possible d'interagir avec votre page grâce à JS.

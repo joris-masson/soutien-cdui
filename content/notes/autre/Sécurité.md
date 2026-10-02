@@ -1,12 +1,32 @@
 # Introduction
-Le serveur web a aussi un rôle important à jouer dans la sécurité de votre site.
-
-Une bonne règle à avoir, c'est qu'il ne faut **JAMAIS** faire confiance aux données venant de l'utilisateur 
+La sécurité, c'est giga important.
+Une bonne règle à avoir, c'est qu'il ne faut **JAMAIS** faire confiance aux données venant de l'utilisateur.
 # Exemple
 Prenons l'exemple d'un formulaire. Votre utilisateur va rentrer des informations dedans, sous forme de texte par exemple.
 Ce ne sera peut-être pas votre rôle, mais il est important de savoir que vous ne devez, sous aucun prétexte, faire confiance aux données transmises par l'utilisateur.
 ## Côté front-end
 Là, c'est votre boulot, lorsque vous réalisez un formulaire, il y a quelques attributs HTML à utiliser au niveau des champs du formulaire pour définir des limites à l'utilisateur.
+
+```html
+<form action="/validation_inscription.php">
+	<label for="pseudo">Pseudo :</label>
+	<input type="text" id="pseudo" name="pseudo">
+	
+	<label for="mot-de-passe">Mot de passe :</label>
+	<input type="password" id="mot-de-passe" name="mot-de-passe">
+	
+	<label for="date-de-naissance">Date de naissance :</label>  
+	<input type="date" id="date-de-naissance" name="date-de-naissance">
+	
+	<label for="note">Notez-vous de 1 à 5 :</label>  
+	<input type="number" id="note" name="note" min="1" max="5">
+
+	<input type="submit" value="Submit">
+</form>
+```
+
+Ici, rien que de définir des types pour chaque `<input>`, ça limite l'utilisateur dans le type de données qu'il pourrait rentrer. En plus d'avoir un affichage sur la page qui soit bien mieux qu'un simple champ de texte.
+Pour le champ `note`, on définit une limite allant de 1 au minimum, à 5 au maximum.
 ## Côté back-end
 Les limites imposées à l'utilisateur par le front-end restent relativement limitées malheureusement. Un utilisateur mal intentionné peut lui-même éditer le HTML pour modifier les champs du formulaire à volonté. 
 C'est pour ça que, au niveau du serveur par le biais de PHP, nous sommes **OBLIGÉS** de revérifier la conformité des données derrière.
